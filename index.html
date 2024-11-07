@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheather API Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="top-container browser">
+        <input id="input-browser" type="text" placeholder="Type a City" />
+        <button class="btn-browser">
+          <img
+            src="./src/img/lupa.png"
+            alt="magnifying-glass"
+            class="magnifying-glass"
+          />
+        </button>
+      </div>
+      <div class="mid-container main-information">
+        <h1 id="city">
+          Use a lupa para procurar a sua cidade
+        </h1>
+        <p class="temperature" id="temperature"></p>
+        <img
+          id="icon-condition"
+          src="https://cdn.weatherapi.com/weather/64x64/day/116.png"
+          alt="icon-wheather-condition"
+        />
+        <p class="condition" id="condition"></p>
+      </div>
+      <div class="bottom-container second-information">
+        <div class="humidity">
+          <span>Umidade</span>
+          <span id="humidity">--</span>
+        </div>
+        <div class="wind">
+          <span>Velocidade do Vento</span>
+          <span id="wind">--</span>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    z-index: 1;
+    background-image: linear-gradient(-45deg, #FF9999, #FFEBCC, #fffdf0, #bde5ff, #d3eefc);
+    background-size: 400% 400%;
+    animation: animation 20s ease infinite;
+    background-attachment: fixed;
+}
+
+.main-content {
+background-color: #3b3b3b;
+color: #ffffff;
+max-width: 330px;
+text-align: center;
+background-image: url("../img/background-3.jpg");
+background-size: cover;
+border-radius: 15px;
+box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.browser {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.browser input {
+    background-color: #3b3b3b;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.browser .btn-browser {
+    background-color: #3b3b3b;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.browser .btn-browser:hover {
+    background-color: #555555;
+}
+
+.browser .magnifying-glass {
+    width: 30px;
+    padding: 6px;
+    opacity: 0.8;
+}
+
+.main-information {
+    margin: 30px;
+}
+
+.main-information h1 {
+    font-size: 18px;
+}
+
+.main-information .temperature {
+    font-size: 68px;
+    margin: 20px 0;
+}
+
+.main-information .condition {
+    font-size: 20px;
+}
+
+.second-information {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.second-information .humidity,
+.second-information .wind {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+@keyframes animation {
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
