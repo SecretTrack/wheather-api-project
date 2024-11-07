@@ -25,3 +25,7 @@ This project is a simple weather application that allows users to search for cur
    - Weather condition (e.g., Sunny, Rainy)
    - Humidity percentage (%)
    - Wind speed (km/h)
+     
+## Live Demo
+
+Check out the live version of the project [here]([https://secrettrack.github.io/wheather-api-project/).
