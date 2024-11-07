@@ -26,6 +26,7 @@ btnBrowser.addEventListener("click", async () => {
         const condition = data.current.condition.text;
         const wind = data.current.wind_kph;
         const iconCondition = data.current.condition.icon;
+        const uv = data.current.uv;
 
         document.getElementById("city").textContent = city;
         document.getElementById("temperature").textContent = `${temperature} °C`;
@@ -33,6 +34,7 @@ btnBrowser.addEventListener("click", async () => {
         document.getElementById("condition").textContent = condition;
         document.getElementById("wind").textContent = `${wind} km/h`;
         document.getElementById("icon-condition").setAttribute("src", iconCondition);
+        document.getElementById("uv").textContent = `${uv}`;
 
         document.getElementById("input-browser").value = "";
 
