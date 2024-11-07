@@ -1,10 +1,11 @@
 # Weather API Project
 
-This project is a simple weather application that allows users to search for current weather information by city. The app retrieves real-time weather data, including temperature, humidity, wind speed, and general weather conditions, using the [WeatherAPI](https://www.weatherapi.com/) service.
+This project is a simple weather application that allows users to search for current weather information by city. The app retrieves real-time weather data, including temperature, humidity, wind speed, UV index, and general weather conditions, using the [WeatherAPI](https://www.weatherapi.com/) service.
 
 ## Features
 
 - **Real-time Weather Data**: Fetches up-to-date weather information for any city worldwide.
+- **UV Index**: Displays the current UV index for the selected city, helping users understand sun exposure levels.
 - **User-Friendly Interface**: Intuitive and easy-to-use design.
 - **Responsive Design**: Optimized for various screen sizes to ensure usability on both desktop and mobile devices.
 
@@ -25,7 +26,8 @@ This project is a simple weather application that allows users to search for cur
    - Weather condition (e.g., Sunny, Rainy)
    - Humidity percentage (%)
    - Wind speed (km/h)
-     
+   - UV index
+
 ## Live Demo
 
 Check out the live version of the project [here](https://secrettrack.github.io/wheather-api-project/).
