@@ -1,4 +1,4 @@
-const apiKey = "d109e58ce40e4cb5aa3233003240611";
+const apiKey = "w]={{i}4n4]";
 const btnBrowser = document.querySelector(".btn-browser");
 
 btnBrowser.addEventListener("click", async () => {
