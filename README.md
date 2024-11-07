@@ -28,4 +28,4 @@ This project is a simple weather application that allows users to search for cur
      
 ## Live Demo
 
-Check out the live version of the project [here]([https://secrettrack.github.io/wheather-api-project/).
+Check out the live version of the project [here](https://secrettrack.github.io/wheather-api-project/).
