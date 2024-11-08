@@ -16,10 +16,25 @@ background-color: #3b3b3b;
 color: #ffffff;
 max-width: 330px;
 text-align: center;
-background-image: url("../img/background-3.jpg");
-background-size: cover;
 border-radius: 15px;
 box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+position: relative;
+overflow: hidden;
+z-index: 1;
+}
+
+.main-content::before {
+content: "";
+background-image: url("../img/background-1.jpg");
+background-size: cover;
+background-position: center;
+filter: blur(5px);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
 }
 
 .browser {
